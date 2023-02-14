@@ -36,5 +36,5 @@ var u=undefined;
 var nn =NaN;
 
 alert("ma variable ma chaine est de type: " + typeof(n) +
-"\n ma variable maChaine est de type : "+ typeof(u));
+"\nma variable maChaine est de type : "+ typeof(u));
  
