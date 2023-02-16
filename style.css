@@ -3,3 +3,8 @@
     padding: 0px;
     box-sizing: border-box;
 }
+.carre{
+    height: 60px;
+    width:60px ;
+    background-color:'rgbd(255,0,0)';
+}

@@ -21,7 +21,7 @@ const monTableau=[];
 monTableau['enfant']=1;
 monTableau['maman']=2;
 monTableau['papa']=3;*/
-
+/*
 var a=42;
 var b=4.2;
 var c=-42;
@@ -69,8 +69,113 @@ alert("il est trop tôt pas encore ouvert");
 }
 else if(heureAtuelle >= heureOuverture && heureAtuelle<heureFermeture){
     alert("bienvenue");
-    if(heureAtuelle <12)
 }
-else {
+    if(heureAtuelle <12){
+alert("")
+    }
+
+else  {
 alert("revenez demain");
 }
+*/
+    var note=5;
+    var noteAmericaine="";
+
+    if(note>19){
+
+    }
+
+   
+else if(note>=18 && noteAmericaine <=19){
+    alert("A")
+}
+else if(note>=18 && noteAmericaine <=19){
+    alert("A")
+}
+else if(note>=15 && noteAmericaine<=17){
+    alert("B")
+}
+else if(note>=12 && noteAmericaine<=14){
+    alert("C")
+}
+else if(note>=9 && noteAmericaine<=14){
+    alert("D")
+}
+else if(note>=6 && noteAmericaine<=19){
+    alert("E")
+}
+else if(note>=15 && noteAmericaine<=19){
+    alert("F")
+}
+else if(note>=0 && noteAmericaine<=19){
+    alert("")
+}
+
+
+switch(noteAmericaine){
+    case "A+": 
+        alert("ExCELLENT travail")
+        break;
+
+    case 18:
+        alert("TB")
+        break;
+
+    case 15:
+    alert("B")
+    break;
+
+    case 12:
+    alert("correct")    
+    break;
+    
+    case 9:
+    alert("moyen")
+    break;
+    
+    case 6:
+        alert("insuffisant")
+        break;
+
+    case 0:
+        alert("Null")    
+        }
+     
+var facture=1000;
+var reduction=0;
+
+if(facture<=2500 && facture>=1000){
+    reduction=0;
+}
+
+else if(facture<=2500 && facture>=1000){
+    reduction=10;
+}
+var total= facture-((reduction/100)*facture);
+
+switch(reduction){
+    case 0:
+        console.log("autre,facture");
+        break;
+        default:
+            console.log("total:",total)
+            break;
+}
+/*
+var ArrayNbr=[1,2,3];
+/* array.push() ajoute une valeur a la fin de notre tableau*/ 
+ arrayNbr.push(4);//[1,2,3,4]
+/* Array.pop() retire la dernière valeur indiqué de notre tableau*/
+arrayNbr.pop();//[1,2,3]
+console.table(ArrayNbr)
+/*arrray.unshift() */
+array.unshift(0);//[0,1,2,3]ajoute la valeur indiqué
+arrayStr.concat("d");// fusionne des tableaux sans changer les valeurs du tableau initial
+arrayStr.joint('-');//a-b-c joindre les valeurs sans changer les du tableau
+arrayStr.slice(-1);//["a","b"] retire le nombre d'
+console.log(arrayCopy);//console.table(arrayNbr)
+*/
+const div =document.getElementsByClassName('carre')
+console.log(div);
+div[0].style.backgroundColor='rgb(255,0,0)';
+
