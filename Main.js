@@ -1,4 +1,4 @@
-console.log("aller ogcn");
+/*console.log("aller ogcn");
 const prenom="romain";
 const nom="cilia";
 const age = 37;
@@ -20,8 +20,8 @@ varTable['tutu']=3;
 const monTableau=[];
 monTableau['enfant']=1;
 monTableau['maman']=2;
-monTableau['papa']=3;*/
-/*
+monTableau['papa']=3;
+
 var a=42;
 var b=4.2;
 var c=-42;
@@ -77,7 +77,7 @@ alert("")
 else  {
 alert("revenez demain");
 }
-*/
+
     var note=5;
     var noteAmericaine="";
 
@@ -161,21 +161,85 @@ switch(reduction){
             console.log("total:",total)
             break;
 }
-/*
+
 var ArrayNbr=[1,2,3];
-/* array.push() ajoute une valeur a la fin de notre tableau*/ 
+ array.push() ajoute une valeur a la fin de notre tableau 
  arrayNbr.push(4);//[1,2,3,4]
-/* Array.pop() retire la dernière valeur indiqué de notre tableau*/
+ Array.pop() retire la dernière valeur indiqué de notre tableau
 arrayNbr.pop();//[1,2,3]
 console.table(ArrayNbr)
-/*arrray.unshift() */
+arrray.unshift() 
 array.unshift(0);//[0,1,2,3]ajoute la valeur indiqué
 arrayStr.concat("d");// fusionne des tableaux sans changer les valeurs du tableau initial
 arrayStr.joint('-');//a-b-c joindre les valeurs sans changer les du tableau
 arrayStr.slice(-1);//["a","b"] retire le nombre d'
 console.log(arrayCopy);//console.table(arrayNbr)
-*/
-const div =document.getElementsByClassName('carre')
-console.log(div);
-div[0].style.backgroundColor='rgb(255,0,0)';
 
+const div =document.getElementsByClassName('carre')
+constarrDiv =Array.from(div)
+
+//console.log(div);
+arrDiv.map(el =>console.log(el))
+
+arrDiv((element,index)=>index % 2 != 0 ? console.log('rouge') : console.log('vert'))
+
+
+//div[].style.backgroundColor='rgb(255,0,0)';
+//div[].style.backgroundColor='rgb(255,0,0)';
+//div[].style.backgroundColor='rgb(255,0,0)';
+//div[].style.backgroundColor='rgb(255,0,0)';
+//div[].style.backgroundColor='rgb(255,0,0)';
+
+//for(let index=0;index<div.length;index++){
+// if (index % 2 !=0){
+//      div[index].style.backgroundColor='rgb(255,0,0)'
+//  }
+//  else{
+    div[index].style.backgroundColor='rgb(255,0,0)'
+}
+
+arrDiv((element,index)=>index % 2 != 0 ? console.log('rouge') : console.log('vert'))
+
+/ div[0].style.backgroundColor = 'rgb(255, 0, 0)';
+// div[1].style.backgroundColor = 'rgb(0, 255, 0)';
+// div[2].style.backgroundColor = 'rgb(255, 0, 0)';
+// div[3].style.backgroundColor = 'rgb(0, 255, 0)';
+// div[4].style.backgroundColor = 'rgb(255, 0, 0)';
+12 h 06
+Boucle for:
+12 h 06
+// for (let index = 0; index < div.length; index++) {
+//   if (index % 2 != 0) {
+//     div[index].style.backgroundColor = 'rgb(255, 0, 0)'
+//   } else {
+//     div[index].style.backgroundColor = 'rgb(0, 255, 0)'
+//   }
+// }
+
+methode map:
+
+// div.map((element, index) => {
+//   if(index % 2 != 0){
+//     element.style.backgroundColor = 'rgb(255, 0, 0)'
+//   } else {
+//     element.style.backgroundColor = 'rgb(0, 255, 0)'
+//   }
+// })
+
+// div.map((element, index) => index % 2 != 0
+//    ?
+//   element.style.backgroundColor = 'rgb(255, 0, 0)'
+//    :
+//   element.style.backgroundColor = 'rgb(0, 255, 0)'
+// )// div.map((element, index) => {
+//   if(index % 2 != 0){
+//     return element.style.backgroundColor = 'rgb(255, 0, 0)'
+//   }
+//   return element.style.backgroundColor = 'rgb(0, 255, 0)'
+// })
+
+
+
+function getRandom(){
+return Math.floor
+}
